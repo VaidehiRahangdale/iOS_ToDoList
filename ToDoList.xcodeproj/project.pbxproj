@@ -14,6 +14,7 @@
 		AD7C784520C8DFE000C55B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7C784420C8DFE000C55B29 /* Images.xcassets */; };
 		AD7C784820C8DFE000C55B29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7C784620C8DFE000C55B29 /* LaunchScreen.xib */; };
 		AD7C785420C8DFE000C55B29 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C785320C8DFE000C55B29 /* ToDoListTests.swift */; };
+		AD7C786020C8E88600C55B29 /* Taskmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C785F20C8E88600C55B29 /* Taskmanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 		AD7C783620C8DFE000C55B29 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7C783A20C8DFE000C55B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7C783B20C8DFE000C55B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD7C783D20C8DFE000C55B29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AD7C783D20C8DFE000C55B29 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FirstViewController.swift; sourceTree = "<group>"; };
 		AD7C783F20C8DFE000C55B29 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AD7C784220C8DFE000C55B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD7C784420C8DFE000C55B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		AD7C784D20C8DFE000C55B29 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7C785220C8DFE000C55B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7C785320C8DFE000C55B29 /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		AD7C785F20C8E88600C55B29 /* Taskmanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taskmanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AD7C784420C8DFE000C55B29 /* Images.xcassets */,
 				AD7C784620C8DFE000C55B29 /* LaunchScreen.xib */,
 				AD7C783920C8DFE000C55B29 /* Supporting Files */,
+				AD7C785F20C8E88600C55B29 /* Taskmanager.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				AD7C784020C8DFE000C55B29 /* SecondViewController.swift in Sources */,
 				AD7C783C20C8DFE000C55B29 /* AppDelegate.swift in Sources */,
+				AD7C786020C8E88600C55B29 /* Taskmanager.swift in Sources */,
 				AD7C783E20C8DFE000C55B29 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				AD7C785920C8DFE000C55B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD7C785A20C8DFE000C55B29 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				AD7C785C20C8DFE000C55B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
